@@ -1,6 +1,6 @@
 <?php
 $rand=rand(0,650);
-// Read JSON file
+// Read JSON file from api
 $api_url = 'http://xkcd.com/'.$rand.'/info.0.json';
 $json_data = file_get_contents($api_url);
 
